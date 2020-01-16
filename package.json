@@ -6,12 +6,14 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js",
+    "start" : "node index.js",
+
     "db:latest": "knex migrate:latest",
     "db:seed": "knex seed:run"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "knex": "^0.20.7",
+    "knex": "^0.20.8",
     "sqlite3": "^4.1.1"
   },
   "devDependencies": {
